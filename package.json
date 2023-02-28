@@ -1,0 +1,28 @@
+{
+  "name": "first-js-todo",
+  "version": "1.0.0",
+  "description": "My first TODO project",
+  "main": "script.js",
+  "scripts": {
+    "build": "parcel build src/*.html --public-url /First-JS-TODO/",
+    "start": "parcel src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawidCzyzewski/First-JS-TODO.git"
+  },
+  "keywords": [
+    "todo",
+    "parcel",
+    "sass"
+  ],
+  "author": "Dawid Czyżewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DawidCzyzewski/First-JS-TODO/issues"
+  },
+  "homepage": "https://github.com/DawidCzyzewski/First-JS-TODO#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
